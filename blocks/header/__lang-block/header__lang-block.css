@@ -1,0 +1,6 @@
+.header__lang-block {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  column-gap: 18px;
+}

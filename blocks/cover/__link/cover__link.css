@@ -1,0 +1,27 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  padding: 245px 212px;
+}
+
+@media (max-width: 1279px) {
+  .cover__link {
+    padding: 195px 232px;
+  }
+}
+  
+@media (max-width: 1023px) {
+  .cover__link {
+    padding: 115px 104px;
+  }
+}
+  
+@media (max-width: 767px) {
+  .cover__link {
+    padding: 33px 16px;
+  }
+}
